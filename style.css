@@ -519,44 +519,4 @@ footer p {
 }
 
 
-/*
-NOTES — Assignment 5 answers / evidence:
-Grid map:
-  "header"
-  "nav"
-  "main"
-  "footer"
-At >= 64rem:
-  "header header"
-  "nav main"
-  "footer footer"
-Header and footer span both columns; nav becomes the left sidebar.
 
-1. Palette: --brand, --accent, --ink, --paper, --surface, etc.
-2. HEX: --brand; RGB: --surface / --shadow; HSL: --accent.
-   Semi-transparent --overlay is used over the registration banner image.
-3. rem scales with the root font size. calc(100% - 2rem) makes a fluid width;
-   clamp(1.5rem, 4vw, 3rem) makes the h1 fluid between limits.
-4. content-box: 200px + 40px padding + 10px border = 250px.
-   border-box: declared 200px includes padding and border, so rendered width = 200px.
-   This stylesheet uses border-box.
-5. Content → Padding → Border → Margin.
-6. repeat(auto-fit, minmax(15rem, 1fr)) creates as many columns as fit,
-   while preventing cards from becoming narrower than 15rem. The browser
-   automatically reflows the grid as the available width changes.
-7. Mobile-first keeps the base layout simple and lets min-width media queries
-   progressively enhance larger screens. The viewport meta tag makes CSS
-   pixels match the device viewport so responsive rules work correctly.
-8. Grid map used by body:
-   "header"
-   "main"
-   "footer"
-   On large screens the header itself uses:
-   "brand nav"
-   "brand nav"
-   The header spans the full page row; main and footer remain full width.
-9. Images: max-width:100% and height:auto/object-fit:cover.
-   Type: clamp() for the h1.
-10. GitHub publication must be completed by the student; this file contains
-    the final HTML/CSS needed for the repository.
-*/

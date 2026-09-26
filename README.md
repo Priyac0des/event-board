@@ -32,5 +32,13 @@ README.md
 
 ## Author
 
-Name: Priya
+Name: Priya (team Leader)
 Roll No: 20261651067
+Name: Aman Raj
+Roll No: 20261651012
+Name: Gourav Shukla
+Roll No: 20261651038
+Name: Sourav Mahato
+Roll No: 20261651087
+Name: Devansh Yadav
+Roll No: 20261651033

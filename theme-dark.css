@@ -1,0 +1,161 @@
+
+   /* dark theme css */
+:root {
+  --brand: #FF8552;
+  --bg-dark: #1B1F23;
+  --surface: #2A2F35;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #c2bdbd;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--brand);
+}
+
+h1 {
+  font-size: 2.25rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+
+#site-header {
+  background-color: var(--surface);
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.events {
+  background-color: var(--surface);
+  border: 2px solid #444444;
+  border-radius: var(--radius, 8px);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.events p {
+  color: var(--brand);
+}
+
+#register {
+  background-image: none;
+  background-color: var(--surface);
+  padding: 24px;
+  border-radius: 8px;
+}
+
+/* for navigation  */
+nav a {
+  color: #F1F1F1;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+a {
+  color: var(--brand);
+}
+
+a:visited {
+  color: #C77DFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.skip {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: var(--brand);
+  color: #1B1F23;
+  padding: 8px 16px;
+  z-index: 100;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+/* for inputs and textarea of form */
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  margin-top: 4px;
+  background-color: var(--surface);
+  color: #F1F1F1;
+}
+
+button, input[type="submit"] {
+  background-color: var(--brand);
+  color: #1B1F23;
+  font: bold 1rem Arial, sans-serif;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #ffa26b;
+}
+
+details {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #444444;
+  border-radius: 8px;
+  background-color: var(--surface);
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+/* footer */
+footer a {
+  color: #ffffff;
+}
+/* table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* table head and table data */
+
+th, td {
+  border: 1px solid #444444;
+  padding: 8px;
+  text-align: left;
+  color: #F1F1F1;
+}

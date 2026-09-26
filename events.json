@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Sports",
+    "date": "2026-11-08",
+    "seats": 40,
+    "online": false,
+    "description": "Sports activities bring energy, teamwork, and healthy competition to our campus event. Students can participate in various indoor and outdoor games, showcase their talents, build friendships, and enjoy an exciting experience together."
+  },
+  {
+    "id": 2,
+    "title": "Freshers' Party",
+    "date": "2026-09-05",
+    "seats": 120,
+    "online": false,
+    "description": "The Freshers' Party is a vibrant campus event welcoming new students. It includes music, dance, games, introductions, and fun activities, helping freshers make friends and create memorable moments together."
+  },
+  {
+    "id": 3,
+    "title": "Dance & Music",
+    "date": "2026-09-20",
+    "seats": 3,
+    "online": false,
+    "description": "Dance is a vibrant campus event where students express creativity, energy, and emotions through different dance styles. Music is an exciting campus event where students showcase their vocal and instrumental talents, perform various genres, and create a lively atmosphere."
+  },
+  {
+    "id": 4,
+    "title": "Hackathon",
+    "date": "2026-09-12",
+    "seats": 0,
+    "online": true,
+    "description": "A Hackathon is an exciting campus event where students collaborate, innovate, and develop creative solutions to real-world problems using technology. Participants showcase their skills, teamwork, and ideas while competing for exciting prizes."
+  }
+]

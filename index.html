@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Campus Event Board - IIIT Vadodara</title>
+        <meta name="description"
+            content="The Campus Event Board in IIIT Vadodara's hub for upcoming workshops, club meetups, sports, and social gatherings.">
+
+        <link rel="icon" href="favicon.png">
+
+        <meta property="og:title" content="Campus Event Board - IIIT Vadodara">
+        <meta property="og:description"
+            content="Discover upcoming workshops, club meetups, sports fixtures, and social gatherings around campus.">
+        <meta property="og:image" content="partyfun.jpeg">
+
+        <link rel="stylesheet" href="theme-dark.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="style.css">\n
+        <!-- Assignment 5: responsive design, Grid, design tokens, and box model -->
+
+    </head>
+
+    <body>
+
+        <a href="#main" class="skip">Skip to content</a>
+
+        <!-- header -->
+        <header id="site-header">
+            <img
+                src="https://imgs.search.brave.com/dsI9N3ibrq6fj1Y2Ug6UjynFhS_yHj2DS_D6NNCjcBk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvOC84Ny9JSUlU/X1ZhZG9kYXJhX2xv/Z28uanBnL3Jldmlz/aW9uL2xhdGVzdD9j/Yj0yMDIwMDMzMDE4/MDkyOA"
+                alt="IIIT Vadodara institute logo" width="100">
+
+            <h1>Campus Event Board</h1>
+
+            <p>
+                Your ultimate hub for everything happening around
+                <abbr
+                    title="Indian Institute of Information Technology">IIIT</abbr>
+                Vadodara!
+                Discover upcoming workshops, club meetups, sports fixtures,
+                and
+                social
+                gatherings.<br>
+                Stay connected with campus life, never miss out on key
+                dates,
+                and engage
+                with your student community.
+                <b>Explore all events today and make every moment count!</b>
+            </p>
+
+        </header>
+
+        <!-- B2/B6: page-level navigation is a Grid region -->
+        <nav class="site-nav" aria-label="Primary">
+            <button class="menu-toggle" type="button"
+                aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+            <div class="nav-links">
+                <a href="index.html" class="active" aria-current="page">Home</a>
+                <a href="event.html">Upcoming Events</a>
+                <a href="#add-event">Submit an Event</a>
+                <a href="#register">Student Registration</a>
+                <a href="#info">Event Information</a>
+                <a href="contact.html">Helpline</a>
+            </div>
+        </nav>
+
+        <!-- main content -->
+        <p class="later-message">This message is hidden for now and can be
+            revealed later with JavaScript.</p>
+
+        <main id="main">
+
+            <!-- home / welcome section -->
+            <section id="home" class="welcome">
+                <h2>Welcome to the Campus Event Board</h2>
+                <p class="section-intro">Stay updated with the latest campus
+                    activities and opportunities to participate.</p>
+                <p class="section-intro-secondary">Explore events, meet new
+                    people, and enjoy campus life.</p>
+
+                <figure>
+                    <img src="partyfun.jpeg"
+                        alt="Students dancing and celebrating together at a campus party"
+                        width="300">
+                    <figcaption>Students celebrating at last semester's
+                        Freshers'
+                        Party</figcaption>
+                </figure>
+            </section>
+
+            <!-- upcoming events section -->
+            <section class="events">
+                <h2>Upcoming Events</h2>
+                <p class="section-intro">Discover the main events happening
+                    around campus.</p>
+
+                <!-- Article  -->
+
+                <article>
+                    <h3>Sports</h3>
+                    <p>
+                        Sports activities bring energy, teamwork, and
+                        healthy
+                        competition to
+                        our campus event.
+                        Students can participate in various indoor and
+                        outdoor
+                        games,
+                        showcase their talents,
+                        build friendships, and enjoy an exciting experience
+                        together.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Freshers' Party</h3>
+                    <p>
+                        The Freshers' Party is a vibrant campus event
+                        welcoming
+                        new
+                        students, taking place on
+                        <time datetime="2026-09-05">5 September</time>. It
+                        includes music,
+                        dance, games,
+                        introductions, and fun activities, helping freshers
+                        make
+                        friends and
+                        create memorable
+                        moments together.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Dance &amp; Music</h3>
+                    <p>
+                        Dance is a vibrant campus event where students
+                        express
+                        creativity,
+                        energy, and emotions
+                        through different dance styles. Participants perform
+                        individually or
+                        in groups,
+                        showcasing talent, rhythm, confidence, and
+                        enthusiasm.
+                    </p>
+                    <hr>
+                    <p>
+                        Music is an exciting campus event where students
+                        showcase their
+                        vocal and instrumental
+                        talents. Participants perform various genres,
+                        entertain
+                        the
+                        audience, and create a
+                        lively atmosphere filled with creativity, rhythm,
+                        and
+                        passion.
+                    </p>
+                </article>
+
+                <!-- Article -->
+                <article>
+                    <h3>Hackathon</h3>
+                    <p>
+                        A Hackathon is an exciting campus event where
+                        students
+                        collaborate,
+                        innovate, and
+                        develop creative solutions to real-world problems
+                        using
+                        technology.
+                        Participants
+                        showcase their skills, teamwork, and ideas while
+                        competing for
+                        exciting prizes.
+                    </p>
+
+                    <!-- Table  -->
+
+                    <table>
+                        <caption>Prize List</caption>
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Prize</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1st Prize</td>
+                                <td>10,000</td>
+                            </tr>
+                            <tr>
+                                <td>2nd Prize</td>
+                                <td>7,000</td>
+                            </tr>
+                            <tr>
+                                <td>3rd Prize</td>
+                                <td>5,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <!-- student registration section -->
+            <section id="register" class="registration">
+                <h2>Student Registration Form</h2>
+                <p class="section-intro">Register your details to participate in
+                    campus events.</p>
+                <form>
+                    <fieldset>
+                        <legend>Registration Form</legend>
+
+                        <label for="reg-name">Name:</label>
+                        <input type="text" id="reg-name" name="name"
+                            placeholder="Enter your full name">
+
+                        <br>
+
+                        <label for="reg-email">Email:</label>
+                        <input type="email" id="reg-email" name="email"
+                            placeholder="Enter your email address">
+
+                        <br>
+
+                        <label for="reg-course">Course:</label>
+                        <input type="text" id="reg-course" name="course">
+
+                        <br>
+
+                        <label for="reg-year">Year:</label>
+                        <input type="text" id="reg-year" name="year">
+
+                        <br>
+
+                        <label for="reg-dob">Date of Birth:</label>
+                        <input type="date" id="reg-dob" name="dob" required>
+
+                        <br>
+
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+
+                <a href="files/syllabus.pdf" download>Download Syllabus</a>
+            </section>
+
+            <!-- submit an event section -->
+            <section id="add-event" class="event-submission">
+                <h2>Submit an Event</h2>
+                <p class="section-intro">Use this form to tell the campus
+                    community about your event.</p>
+                <form>
+                    <fieldset>
+                        <legend>Event Form</legend>
+
+                        <label for="event-title">Event Title:</label><br>
+                        <input type="text" id="event-title"
+                            name="eventTitle"
+                            placeholder="Enter event title">
+
+                        <br>
+
+                        <label for="event-date">Date:</label><br>
+                        <input type="date" id="event-date" name="eventDate"
+                            required>
+
+                        <br>
+
+                        <label for="event-location">Location:</label>
+                        <input type="text" id="event-location"
+                            name="eventLocation"
+                            placeholder="Enter event location"
+                            required>
+
+                        <br>
+
+                        <label
+                            for="event-description">Description:</label><br>
+                        <textarea id="event-description"
+                            name="eventDescription"
+                            rows="4"
+                            cols="40"
+                            placeholder="Briefly describe your event"></textarea>
+
+                        <br>
+
+                        <button type="submit">Add Event</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- FAQ section -->
+            <section id="faq" class="faq">
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-intro">Find quick answers to common questions
+                    about the event board.</p>
+                <details>
+                    <summary>Who can submit an event?</summary>
+                    <p>Any registered student or club representative can
+                        submit
+                        an event
+                        using the form above.</p>
+                </details>
+
+                <details>
+                    <summary>How do I download the course
+                        syllabus?</summary>
+                    <p>
+                        Use the <mark>Download Syllabus</mark> link in the
+                        Student
+                        Registration section to get the
+                        latest <code>syllabus.pdf</code>.
+                    </p>
+                </details>
+            </section>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <!-- Navigation tag used -->
+            <nav>
+                <a href="#home">Home</a>
+                <a href="contact.html">Helpline</a>
+            </nav>
+
+            <!-- event categories and schedule info -->
+            <section id="info" class="event-info">
+                <h2>Event Categories &amp; Schedule</h2>
+                <p class="section-intro">Check the meeting dates for each event
+                    category.</p>
+
+                <!-- Table  -->
+                <table class="event-schedule">
+                    <caption>Event category meeting days</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Meeting Day</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cultural &amp; Dance</td>
+                            <td><time datetime="2026-08-25">25th
+                                    August</time></td>
+                        </tr>
+                        <tr>
+                            <td>Coding &amp; Hackathon</td>
+                            <td><time datetime="2026-09-05">5th
+                                    September</time></td>
+                        </tr>
+                        <tr>
+                            <td>Sports Club</td>
+                            <td><time datetime="2026-10-13">13th
+                                    October</time></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <address>
+                Questions? Contact us at <a
+                    href="mailto:events@iiitvadodara.ac.in">events@iiitvadodara.ac.in</a>
+            </address>
+
+            <p>&copy; Aman Raj, Priya, Gourav, Sourav, Devansh 2026</p>
+        </footer>
+
+    </body>
+
+</html>

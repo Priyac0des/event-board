@@ -1,0 +1,31 @@
+/* /* 
+   base.css
+  */
+   
+/*reset B12: universal selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* design tokens (B20: CSS custom properties*/
+:root {
+  --brand: #E8541E;       /* primary accent colour, used across both stylesheets */
+  --text-dark: #222831;   /* body text colour */
+  --bg-light: #FAF9F6;    /* page background */
+  --radius: 8px;          /* shared corner radius for cards */
+}
+
+/* base element styles (B5) */
+body {
+  font-family: "Segoe UI", Arial, sans-serif; /* keyword-ish stack, not a shorthand */
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+}
+
+/* Deliberate base-level link colour — style.css intentionally
+   overrides this for nav links, demonstrating cascade order (B25). */
+a {
+  color: var(--brand);
+} 
